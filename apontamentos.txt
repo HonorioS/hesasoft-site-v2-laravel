@@ -1,0 +1,10 @@
+
+
+integração bootrasp e jquery
+mix.styles([
+        'resources/views/site/css/style.css'
+    ], 'public/site/css/style.css')
+    // adicionando o jquery e bootrasp ao public  # pm run dev 
+    // instalando jquery e bootrasp  npm install jquery |  npm install bootstrap 
+    .scripts(['node_modules/jquery/dist/jquery.js'], 'public/site/js/jquery.js');
+// .scripts('node_modules/bootstrap/dist/jquery.js', 'public/site/js/jquery.js');
