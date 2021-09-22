@@ -8,7 +8,7 @@ use Session;
 
 class HomeController extends Controller
 {
-    // private $dados = [];
+     private $dados = [];
 
     /* public function index()
     {
@@ -26,7 +26,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        return view('site/pages/home');
+        return view('site/pages/home', ['title'=>'Home']);
     }
 
     public function pageNotFound404()

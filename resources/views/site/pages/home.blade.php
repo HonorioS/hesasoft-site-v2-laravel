@@ -1,12 +1,13 @@
 {{-- sintaxe para comentario no recurso a blade --}}
 
-@extends('layouts.template')
+@extends('site.layouts.template')
 
+@section('title', $title)
 @section('content')
     
 <div class="container-fluid body">
 
-    <h6 class="card-subtitle mb-2 text-muted text-center">WEBSITE EM CONSTRUÇÃO</h6>
+    <h6 class="card-subtitle mb-2 text-muted text-center">WEBSITE EM CONSTRUÇÃO - Home </h6>
 
     <div class="row  justify-content-center fw-bolder fs-4 text-white">
 

@@ -1,6 +1,5 @@
-@extends('layouts.template')
 
-@section('header')
+@section('menu')
 
 <div class="container-fluid navTop bg-light border-bottom-1 border-secondary mb-2">
 
